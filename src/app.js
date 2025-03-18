@@ -7,7 +7,7 @@ const app = express();
 app.use(
     cors({
         origin: [
-            "https://streamify-video-streaming.vercel.app",
+            "https://video-client-chi.vercel.app/",
             "http://localhost:5173",
         ],
         credentials: true,
